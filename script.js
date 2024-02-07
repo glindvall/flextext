@@ -13,7 +13,7 @@ function fetchAllPlayerData() {
 
     // console.log("queryToSend: ", queryToSend);
 
-    fetch('http://ec2-18-221-254-20.us-east-2.compute.amazonaws.com:3306/api/query', {
+    fetch('https://ec2-18-221-254-20.us-east-2.compute.amazonaws.com:3306/api/query', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -90,7 +90,7 @@ function displayDataCorr(data) {
 
 
 // Fetch data from the server
-fetch('http://ec2-18-221-254-20.us-east-2.compute.amazonaws.com:3306/api/items')
+fetch('https://ec2-18-221-254-20.us-east-2.compute.amazonaws.com:3306/api/items')
     .then(response => response.json())
     .then(data => {
         const itemList = document.getElementById('allPlayerList');
