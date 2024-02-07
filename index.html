@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guy's Flexbox Framework</title>
+</head>
+<body>
+    <!-- onload="fetchAllPlayerData()" -->
+        <main class='main'>
+            <div class="teamSelectImage" id="ARI"><a href="#"><img src="/images/ARI.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/ATL.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/BAL.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/BUF.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/CAR.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/CHI.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/CIN.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/CLE.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/DAL.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/DEN.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/DET.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/GB.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/HOU.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/IND.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/JAX.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/KC.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/LAC.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/LAR.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/LV.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/MIA.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/MIN.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/NE.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/NO.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/NYG.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/NYJ.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/PHI.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/PIT.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/SEA.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/SF.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/TB.webp" ></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/TEN.webp"></a></div>
+            <div class="teamSelectImage"><a href="#"><img src="/images/WSH.webp"></a></div>
+        </main> 
+   
+        <div  class="playerListContainer" id="player-list-container">
+            
+            <div class="playerColumns" id="all-players-list-column">
+                <div class="column-options" id="all-players-list-options">
+                    <input class="search" type="text" id="myInputAll" placeholder="Search for names.." title="Type in a name">
+                    
+                </div>
+                <div id="all-players-list">
+                </br>
+                    <p class="playerListTitle">All Players</p>
+                    <ol class="orderedList" id="allPlayerList"></ol>
+                </div>
+            </div>
+
+            <div class="playerColumns" id="corr-players-list-column">
+                <div class="column-options"  id="corr-players-list-options">
+                    <input class="search" type="text" id="myInputCorr" placeholder="Search for names.." title="Type in a name">
+
+                <div class="corrPlayerList" id="corr-players-list">
+                </br>
+                    <p class="playerListTitle">Correlated Players</p>
+                    <ol class="orderedList" id="corrPlayerList"></ol>
+                </div>
+            </div>
+        
+        </div>
+</body>
+<script src="script.js">
+</script>
+</html>
